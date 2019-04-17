@@ -17,7 +17,6 @@ const TeamList = (props) =>{
   return(
 
     <div className = 'team-list'>
-      <h2>Hello from TeamList</h2>
       <select id="team-selector" onChange={handleChange} defaultValue="default">
         <option disabled value="default">Choose a team...</option>
         { teams }

@@ -34,7 +34,7 @@ class TeamContainer extends Component{
   render(){
     return(
       <div className = 'team-container'>
-        <h1>Hello from TeamContainer</h1>
+        <h1> English Football Teams</h1>
         <TeamList teams={this.state.teams} onTeamSelected={this.handleTeamSelected} />
         <TeamItem team= {this.state.currentTeam}/>
       </div>
